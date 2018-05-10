@@ -1,8 +1,6 @@
-__author__ = 'Avinash'
+def sum_list(l):
+k = 0
+for i in l:
+k += i
+print('The sum of list items is',k)
 
-lst = []
-num = int(input('How many numbers: '))
-for n in range(num):
-    numbers = int(input('Enter number '))
-    lst.append(numbers)
-print("Sum of elements in given list is :", sum(lst))
